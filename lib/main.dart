@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:jpec_training/Pages/HomePage/HomePage.dart';
-
-import 'Widgets/Localization.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,13 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: APP_NAME,
-      localizationsDelegates: [
-        MyLocalizationsDelegate(),
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
+      title: 'lbc',
       supportedLocales: [
         const Locale(EN_LOCALE),
         const Locale(FR_LOCALE),

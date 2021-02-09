@@ -1,4 +1,4 @@
-name: jpec_training
+name: lbc_app
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -27,11 +27,14 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   shared_preferences: ^0.5.6
+  flutter_secure_storage: ^3.3.5
   flare_flutter: ^2.0.6
   http: ^0.12.2
   path_provider: ^1.6.11
   path: any
   flutter_launcher_icons: ^0.7.3
+  flutter_bloc: ^6.1.2
+  webview_flutter: ^1.0.7
   #cloud_firestore: ^0.12.9+5
   #firebase_analytics: ^5.0.2
   #sentry: ">=3.0.0 <4.0.0"
@@ -66,7 +69,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/
+    - assets/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
