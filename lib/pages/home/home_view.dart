@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpec_training/Widgets/Localization.dart';
-import 'package:jpec_training/Widgets/MainDrawer.dart';
+import 'package:jpec_training/widgets/main_drawer.dart';
 
 class HomePage extends StatefulWidget {
   static const routeName = '/';
@@ -10,7 +9,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

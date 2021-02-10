@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:jpec_training/Pages/HomePage/HomePage.dart';
+import 'package:jpec_training/pages/home/home_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,21 +12,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'lbc',
-      supportedLocales: [
-        const Locale(EN_LOCALE),
-        const Locale(FR_LOCALE),
-        const Locale(JAP_LOCALE),
-      ],
+      // supportedLocales: [
+      //   const Locale(EN_LOCALE),
+      //   const Locale(FR_LOCALE),
+      //   const Locale(JAP_LOCALE),
+      // ],
       navigatorKey: Get.key,
       theme: ThemeData(
-        // primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        textTheme: TextTheme(
-          headline1: TextStyle(fontSize: 30)
-        )
-      ),
+          // primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          textTheme: TextTheme(headline1: TextStyle(fontSize: 30))),
       onGenerateRoute: (settings) {
-
         // if (settings.name == DeckPage.routeName) {
         //   final DeckPageArguments args = settings.arguments;
         //
@@ -48,5 +44,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
