@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
       // ],
       navigatorKey: Get.key,
       theme: ThemeData(
-          // primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
           textTheme: TextTheme(headline1: TextStyle(fontSize: 30))),
       onGenerateRoute: (settings) {

@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   get: ^3.11.1
+  intl: ^0.16.1
   flutter_localizations:
     sdk: flutter
   shared_preferences: ^0.5.6

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpec_training/Pages/HomePage/HomePage.dart';
-import 'package:jpec_training/Widgets/Localization.dart';
+import 'package:jpec_training/pages/home/home_view.dart';
 
 class MainDrawer extends StatefulWidget {
   @override
@@ -45,7 +44,7 @@ class MainDrawerState extends State<MainDrawer> {
           ),
           ListTile(
             title:
-            Text(LocalizationWidget.of(context).getLocalizeValue('home')),
+            Text("Home"),
             onTap: () {
               Navigator.pushNamed(
                 context,
