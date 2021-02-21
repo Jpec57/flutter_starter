@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpec_training/widgets/main_drawer.dart';
+import 'package:flutter_starter/widgets/main_drawer.dart';
 
 class HomePage extends StatefulWidget {
   static const routeName = '/';

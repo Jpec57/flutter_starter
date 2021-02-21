@@ -1,4 +1,4 @@
-package com.jpec.jpec_training
+package com.jpec.flutter_starter
 
 import io.flutter.embedding.android.FlutterActivity
 

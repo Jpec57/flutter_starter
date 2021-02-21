@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpec_training/pages/home/home_view.dart';
+import 'package:flutter_starter/pages/home/home_view.dart';
 
 class MainDrawer extends StatefulWidget {
   @override
