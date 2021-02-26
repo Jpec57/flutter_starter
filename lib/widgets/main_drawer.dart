@@ -7,7 +7,6 @@ class MainDrawer extends StatefulWidget {
 }
 
 class MainDrawerState extends State<MainDrawer> {
-
   @override
   void initState() {
     super.initState();
@@ -34,17 +33,14 @@ class MainDrawerState extends State<MainDrawer> {
                       ),
                     ],
                   ),
-                )
-            ),
+                )),
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("images/app_icon.png"),
-                    fit: BoxFit.cover)
-            ),
+                    image: AssetImage("assets/images/app_icon.png"),
+                    fit: BoxFit.cover)),
           ),
           ListTile(
-            title:
-            Text("Home"),
+            title: Text("Home"),
             onTap: () {
               Navigator.pushNamed(
                 context,
